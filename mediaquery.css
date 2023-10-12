@@ -1,0 +1,80 @@
+@media (max-width:972px) {
+    
+    .l-main{
+        padding: 50px !important;
+    }
+    .about{
+        padding: 30px !important;
+    }
+    .contact{
+        padding: 10px !important;
+    }
+}
+@media (max-width:674px) {
+    .l-main{
+        padding: 10px !important;
+    }
+    .about{
+        padding: 10px !important;
+    }
+    .contact{
+        padding: 10px !important;
+    }
+}
+@media (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+    }
+
+    .about-img {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    
+    
+    .services{
+        margin: 0px;
+    }
+    
+
+    .sub-title {
+        font-size: 24px;
+    }
+
+    .services-list i {
+        font-size: 32px;
+        
+    }
+
+    .services-list h2 {
+        font-size: 18px;
+    }
+
+    .services-list p {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 0px;
+    }
+    .row {
+        flex: 0 1 calc(50% - 20px); 
+    }
+    .project-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
